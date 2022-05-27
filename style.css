@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: helvetica, serif;
+}
+
+#header-container {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title h1 {
+    font-weight: 200;
+    margin: 10px 0px;
+    color: #333;
+}
+
+#title h2, p {
+    font-size: 12px;
+    font-weight: 200;   
+    padding: 2px;
+    margin: 0px;
+}
+
+#menu {
+    list-style-type: none;
+    color: #333;
+    padding: 0%;
+    font-size: 12px;
+}
+
+#menu a {
+    /* not sure why this isn't working */
+    margin-bottom: 20px;
+}
+
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: greenyellow;
+    text-decoration: overline;
+}
+
+section {
+    max-width: 350px;
+    margin: auto;
+}
+
+section p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spam {
+    font-size: 8px;
+    text-align: right;
+}
+
+#email {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.email {
+    font-size: 24px;
+    font-weight: 300;
+}
