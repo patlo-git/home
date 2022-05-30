@@ -2,14 +2,15 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: helvetica, serif;
+    overflow: hidden;
 }
 
 #header-container {
-    width: 200px;
-    margin-left: 10px;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 20px;
+        margin-top: 100px;
+        /* display: flex;
+        flex-wrap: wrap; */
 }
 
 #title h1 {
@@ -19,45 +20,79 @@ html, body {
 }
 
 #title h2, p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;   
     padding: 2px;
     margin: 0px;
 }
 
-#menu {
-    list-style-type: none;
-    color: #333;
-    padding: 0%;
-    font-size: 12px;
-}
-
-#menu a {
-    /* not sure why this isn't working */
+#title a {
     margin-bottom: 20px;
 }
 
-a:link {
+#title a:link {
     color: #333;
     text-decoration: none;
 }
-a:visited {
+
+#title a:visited {
     color: #333;
     text-decoration: none;
 }
-a:hover {
-    color: greenyellow;
+
+#title a:hover{
     text-decoration: overline;
 }
 
-section {
-    max-width: 350px;
-    margin: auto;
+#home-nolink {
+    text-decoration: none;
 }
 
-section p {
+#menu {
+    list-style-type: none;
+    padding: 0%;
+    font-size: 16px;
+}
+
+#menu a:link {
+    color: steelblue;
+    text-decoration: none;
+    margin-bottom: 4px;
+    border-bottom: 1px solid;
+    display: inline-block;
+}
+
+#menu a:visited {
+    color: steelblue;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color:#333;
+}
+
+#about {
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 20px auto;
     text-align: justify;
     font-size: 16px;
+    padding: 20px;
+    }
+
+#about a:link {
+    color: steelblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#about a:visited {
+    color: steelblue;
+    text-decoration: none;
+}
+
+#about a:hover{
+    text-decoration: overline;
 }
 
 #spam {
@@ -65,13 +100,74 @@ section p {
     text-align: right;
 }
 
-#email {
-    padding: 20px;
+#stuff {
+    max-width: 450px;
     margin: auto;
+    padding: 10px;
+}
+
+#stuff h3 {
+    font-weight: 300;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+    color: #333;
+    margin-bottom: 0;
     text-align: center;
 }
 
-.email {
+#stuff ul {
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 18px;
+    text-align: right;
+}
+
+#stuff a:link {
+    color: steelblue;
+    text-decoration: none;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+#stuff a:visited {
+    color: steelblue;
+    text-decoration: none;
+}
+
+#stuff a:hover{
+    text-decoration: overline;
+}
+
+#email {
+    max-width: 250px;
+    margin: auto;
     font-size: 24px;
     font-weight: 300;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+}
+
+#email a:link {
+    color: steelblue;
+    text-decoration: none;
+    margin-bottom: 4px;
+    border-bottom: 2px solid;
+    display: inline-block;
+}
+
+#email a:visited {
+    color: steelblue;
+    text-decoration: none;
+}
+
+#email a:hover{
+    text-decoration: overline;
+}
+
+.active {
+    color: orange !important;
 }
