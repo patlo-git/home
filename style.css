@@ -159,7 +159,7 @@ html, body {
 }
 
 #email a:hover{
-    text-decoration: overline;
+    color:#333;
 }
 
 .active {

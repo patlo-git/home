@@ -1,5 +1,5 @@
 ### Hi there 👋
-Welcome.
+Welcome
 
 This site and repo is a work in progress, with an aesthetic leaning towards the minimal.
 
