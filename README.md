@@ -1,4 +1,6 @@
 ### Hi there 👋
-Welcome, this is the code to my personal website.
+Welcome.
 
-This line is my first edit/addition.
+This site and repo is a work in progress, with an aesthetic leaning towards the minimal.
+
+Built using html and vanilla css.
